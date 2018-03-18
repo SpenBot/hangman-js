@@ -1,0 +1,97 @@
+
+
+body {
+    background-color: rgb(255, 170, 170);
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 170);
+    text-align: center;
+}
+
+h1 {
+  font-size: 54px;
+  text-decoration: underline;
+}
+
+#mainDiv {
+  height: 400px;
+  width: 700px;
+  border: solid 5px white;
+  border-radius: 15px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+#hangmanDiv {
+  height: 400px;
+  width: 250px;
+}
+
+#userDiv {
+  height: 400px;
+  width: 450px;
+}
+
+#lettersDiv {
+  height: 80px;
+  width: 450px;
+  font-size: 28px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#userInputDiv {
+  height: 140px;
+  width: 450px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+h5 {
+  margin: 10px auto 0;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  font-size: 36px;
+  border: solid 5px white;
+  border-radius: 15px;
+  background-color: rgb(255, 210, 210);
+  color: white;
+  text-align: center;
+}
+
+#wrongGuessDiv {
+  height: 70px;
+  width: 450px;
+  font-size: 28px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#wrongGuessDiv p {
+  margin: 10px;
+  text-decoration: underline;
+}
